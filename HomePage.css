@@ -1,0 +1,135 @@
+body{
+    background-color: #F7F7FB;
+    font-family: 'Calibri','Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+html{
+    margin: 0;
+}
+
+#header{
+    background-color: white;
+    margin: 0;
+    box-shadow: 3px 0 8px rgb(221, 221, 221);
+    position: fixed;
+    width: 100%;
+}
+#header nav{
+    float: right;
+    margin: 18px 22px 0 0;
+}
+#header a{
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    display: inline-block;
+}
+#header a:hover{
+    color: red;
+}
+#header img{
+    height: 80px;
+    margin: 10px 0 10px 20px;
+}
+
+#welcomePan {
+    background-color: white;
+    padding: 104px 20px 20px 20px;
+    margin: 0 0 20px 0;
+    height: 400px;
+}
+#welcomePan h1{
+    font-size: 55px;
+    color: #002060;
+    margin: 70px 0 20px 60px;
+}
+#welcomePan p{
+    font-size: 22px;
+    color: #002060;
+    margin: 20px 0 20px 60px;
+    width: 400px;
+    text-align: justify;
+}
+#welcomePan img{
+    float: right;
+    margin: 50px 60px 0 0;
+    height: 300px;
+}
+
+#thebody{
+    margin: 20px 70px;
+    height: 500px;
+}
+#school, #major {
+    width: 500px;
+    margin: 10px;
+    padding: 20px 30px 20px 30px;
+    font-family: 'Calibri','Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif; 
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgb(221, 221, 221);
+}
+#school{
+    background-color: #3767C1;
+}
+#major{
+    background-color: #DB6450;
+}
+#school h2,#major h2{
+   font-size: 45px;
+   margin: 15px 0 ;
+   color: #ffffff;
+}
+#school p, #major p{
+    font-size: 20px;
+    width: 400px;
+    color: white;
+}
+#school a, #major a{
+    font-size: 20px;
+    font-weight: bold;
+    width: 400px;
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 20px;
+}
+#school a:hover , #major a:hover {
+    color: rgb(0, 0, 0);
+}
+#school{
+    float: left;
+}
+#major{
+    float: right;
+}
+
+#footer{
+    background-color: #FFDB58;
+    padding: 30px;
+    color: black;
+}
+#footer h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px;
+}
+#footer ul{
+    list-style-type: none;
+    padding-left: 10px;
+}
+#footer a{
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+}
+#footer a:hover{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+#footer li{
+    margin: 20px;
+    width: 500px;
+    font-weight: 800;
+}
