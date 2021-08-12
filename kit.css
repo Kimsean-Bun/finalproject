@@ -1,5 +1,5 @@
 body{
-    background-color: #b7fdff;
+    background-color: #B71638;
     font-family: 'Calibri','Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     margin: 0;
 }
@@ -102,7 +102,7 @@ html{
     border-radius: 10px;
     box-shadow: 0 3px black;
     padding: 20px 30px;
-    background-color: #F2CB60;
+    background-color: #D7501C;
 }
 #detailhead li{
     padding: 10px;
@@ -126,10 +126,12 @@ html{
 
 #detailbody{
     background-color: white;
-    padding: 30px 50px;
+    padding: 25px 45px;
 }
 #detailbody h3{
-    margin: 15px;
+    font-size: 30px;
+    margin: 10px;
+    width: auto;
 }
 #detailbody p{
     font-size: 25px;
@@ -145,14 +147,14 @@ html{
     border-radius: 8px;
     border: 2px solid black;
     padding: 15px;
-    background-color: #16DB65;
+    background-color: #D7501C;
     box-shadow: 0 3px black;
 }
 #detailbody a{
     font-size: 20px;
     text-decoration: none;
     color: rgb(0, 0, 0);
-    background-color: #D58936;
+    background-color: #B71638;
     padding: 5px 10px;
     border: 2px solid black;
     border-radius: 8px;
@@ -163,8 +165,8 @@ html{
 }
 
 #detailss{
-    background-color: #b7fdff;
-    margin: 30px;
+    background-color: #B71638;
+    padding: 120px 40px;
 }
 #detailss h3{
     font-size: 35px;
@@ -181,4 +183,20 @@ html{
     margin: 10px 30px;
     text-indent: 30px;
     font-size: 20px;
+}
+.MajorDetail {
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 3px black;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+#no1 {
+    background-color: #D7501C;
+}
+#no2 {
+    background-color: #D7501C;
+}
+#no3 {
+    background-color: #D7501C;
 }

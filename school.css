@@ -78,12 +78,11 @@ html{
 #thebody h2{
     font-size: 28px;
     margin: 15px 0 15px 15px;
-    width: 328px;
+    width: auto;
     display: inline-block;
 }
 #thebody img{
-    height: 75px;
-    margin: 5px 5px 0 0;
+    height: 68px;
     float: right;
 }
 
@@ -93,7 +92,7 @@ html{
     border: 2px solid #303030;
     border-radius: 10px;
     padding: 20px;
-    width: 570px;
+    width: 530px;
     height: auto;
     box-shadow: 0 3px #303030;
     margin: 10px;
@@ -148,8 +147,4 @@ hr{
 #info a{
     text-decoration: none;
     color: white;
-}
-
-#longlogo img{
-    height: 30px;
 }
