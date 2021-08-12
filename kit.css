@@ -1,0 +1,184 @@
+body{
+    background-color: #b7fdff;
+    font-family: 'Calibri','Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+html{
+    margin: 0;
+}
+
+.header{
+    background-color: white;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+.header img{
+    height: 80px;
+    margin: 10px 0 10px 20px;
+}
+
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 70px;
+    overflow: hidden;
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+}
+.header li {
+    float: left;
+}
+.header a {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 37px;
+    text-decoration: none;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 260px;
+    border: 2px solid black;
+    box-shadow: 0 3px black;
+    border-radius: 0 0 10px 10px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 20px;
+    margin: 5px;
+}
+.dropdown-content a:hover {
+    background-color: #f76f6f;
+    box-shadow: 0 3px black;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+#theschool:hover{
+    background-color: #3767C1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#thebody{
+    padding-top: 120px;
+}
+
+#detailhead{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 3px black;
+    padding: 25px;
+    margin: 40px;
+}
+#detailhead img{
+    float: right;
+    height: 100px;
+    margin: 15px;
+}
+#detailhead h1{
+    font-size: 70px;
+    margin: 10px;
+}
+#detailhead p{
+    font-size: 20px;
+    margin-left: 20px;
+}
+#detailhead ul{
+    font-size: 20px;
+    list-style-type: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 3px black;
+    padding: 20px 30px;
+    background-color: #F2CB60;
+}
+#detailhead li{
+    padding: 10px;
+}
+#detailhead a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    
+}
+#detailhead a:hover{
+    color: rgb(243, 243, 243);
+}
+#detailhead hr{
+    width: 300px;
+    background-color: black;
+    height: 2px;
+    border: none;
+    margin-left: 30px;
+}
+
+#detailbody{
+    background-color: white;
+    padding: 30px 50px;
+}
+#detailbody h3{
+    margin: 15px;
+}
+#detailbody p{
+    font-size: 25px;
+    margin-left: 30px;
+}
+#detailbody li{
+    font-size: 30px;
+    margin: 0;
+    list-style-type: none;
+    display: inline-block;
+    margin: 20px 40px;
+    width: 450px;
+    border-radius: 8px;
+    border: 2px solid black;
+    padding: 15px;
+    background-color: #16DB65;
+    box-shadow: 0 3px black;
+}
+#detailbody a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: #D58936;
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+#detailbody a:hover{
+    box-shadow: 0 3px black;
+}
+
+#detailss{
+    background-color: #b7fdff;
+    margin: 30px;
+}
+#detailss h3{
+    font-size: 35px;
+    margin: 20px 30px;
+}
+#detailss hr{
+    width: 300px;
+    background-color: black;
+    height: 2px;
+    border: none;
+    margin-left: 40px;
+}
+#detailss p{
+    margin: 10px 30px;
+    text-indent: 30px;
+    font-size: 20px;
+}

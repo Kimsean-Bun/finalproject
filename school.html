@@ -5,19 +5,23 @@
         <link rel="stylesheet" href="school.css">
     </head>
     <body>
-        <div id="header">
-            <nav>
-                <a href="">Menu</a>
-                <a href="school.html">School</a>
-                <a href="major.html">Major</a>
-                <a href="HomePage.html">Home</a>
-            </nav>
-            <img src="Header.jpg" alt="University Map">
+        <div class="header">
+            <ul>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Menu</a>
+                    <div class="dropdown-content">
+                    <a href="school.html" id="theschool">School</a>
+                    <a href="major.html">Major</a>
+                    </div>
+                </li>
+                <li><a class="active" href="#home">Home</a></li>
+            </ul>
+            <a href="HomePage.html" style="padding: 0;"><img src="Header.jpg" alt="University Map"></a>
         </div>
         <div id="thebody">
             <div class="schooldetails">
                 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/66/UHS_Cambodia_logo.png/220px-UHS_Cambodia_logo.png" alt="The logo">
-                <h2>University of Health Science</h2>
+                <h2>University of Health Science</h2><hr>
                 <div id="info">
                     <b>Location : </b><p>Phnom Penh</p>
                     <br><b>Major : </b>
@@ -32,7 +36,7 @@
             </div>
             <div class="schooldetails">
                 <img src="https://upload.wikimedia.org/wikipedia/en/9/9f/RUFA_new_logo.png" alt="The logo">
-                <h2>Royal University of Fine Art</h2>
+                <a href="rufa.html"><h2>Royal University of Fine Art</h2><hr></a>
                 <div id="info">
                     <b>Location : </b><p>Phnom Penh</p>
                     <br><b>Major : </b>
@@ -47,7 +51,7 @@
             </div>
             <div class="schooldetails">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Kitlogo.png" alt="The logo">
-                <h2>Kirirom Institute of Technology</h2>
+                <a href="kit.html"><h2>Kirirom Institute of Technology</h2></a><hr>
                 <div id="info">
                     <b>Location : </b><p>Kompong Speu</p>
                     <br><b>Major : </b>
@@ -61,7 +65,7 @@
             </div>
             <div class="schooldetails">
                 <img src="https://upload.wikimedia.org/wikipedia/en/a/a2/RUPP_logo.PNG" alt="The logo">
-                <h2>Royal University of Phnom Penh</h2>
+                <h2>Royal University of Phnom Penh</h2><hr>
                 <div id="info">
                     <b>Location : </b><p>Phnom Penh</p>
                     <br><b>Major : </b>
@@ -75,7 +79,7 @@
             </div>
             <div class="schooldetails">
                 <img src="https://upload.wikimedia.org/wikipedia/en/9/98/AUPP_Logo.png" alt="The logo">
-                <h2>American University of Phnom Penh</h2>
+                <h2>American University of Phnom Penh</h2><hr>
                 <div id="info">
                     <b>Location : </b><p>Phnom Penh</p>
                     <br><b>Major : </b>
@@ -84,13 +88,16 @@
                         <li>Law</li>
                         <li>IT</li>
                         <li>Global Affairs</li>
+                        <li>Architecture</li>
+                        <li>Engineering</li>
+                        <li>English</li>
                         <li><a href="">More</a></li>
                     </ul>
                 </div>
             </div>
             <div class="schooldetails">
                 <img src="https://upload.wikimedia.org/wikipedia/en/f/f7/Institute_of_Technology_of_Cambodia_logo.png" alt="The logo">
-                <h2>Institute of Technology of Cambodia</h2>
+                <h2>Institute of Technology of Cambodia</h2><hr>
                 <div id="info">
                     <b>Location : </b><p>Phnom Penh</p>
                     <br><b>Major : </b>
@@ -99,13 +106,14 @@
                         <li>Mechanical</li>
                         <li>Electrical</li>
                         <li>Chem-Food</li>
+                        <li>Architecture</li>
                         <li><a href="">More</a></li>
                     </ul>
                 </div>
             </div>
             <div class="schooldetails">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Logo_of_Rule_Cambodia.png" alt="The logo">
-                <h2>Royal University of Law and Economic</h2>
+                <h2>Royal University of Law and Economic</h2><hr>
                 <div id="info">
                     <b>Location : </b><p>Phnom Penh</p>
                     <br><b>Major : </b>
@@ -121,7 +129,7 @@
             </div>
             <div class="schooldetails">
                 <img src="https://upload.wikimedia.org/wikipedia/en/2/25/National_University_of_Cambodia_logo.png" alt="The logo">
-                <h2>National University of Managment</h2>
+                <h2>National University of Managment</h2><hr>
                 <div id="info">
                     <b>Location : </b><p>Phnom Penh</p>
                     <br><b>Major : </b>
@@ -137,7 +145,7 @@
             </div>
             <div class="schooldetails">
                 <img src="https://media-exp1.licdn.com/dms/image/C510BAQF-VSJj_wCH6g/company-logo_200_200/0/1551924314791?e=2159024400&v=beta&t=ybjvV98cOagWLrJw9xB7-0P4MKjeskzsT7YL-gs43GU" alt="The Logo">
-                <h2>Norton University</h2>
+                <h2>Norton University</h2><hr>
                 <div id="info">
                     <b>Location : </b><p>Phnom Penh</p>
                     <br><b>Major : </b>
@@ -147,13 +155,14 @@
                         <li>IT</li>
                         <li>Medicine</li>
                         <li>Languages</li>
+                        <li>Finance</li>
                         <li><a href="">More</a></li>
                     </ul>
                 </div>
             </div>
             <div class="schooldetails" id="longLogo">
                 <img src="https://paragoniu.edu.kh/wp-content/uploads/2020/04/Logo-06-800x277.png" alt="The Logo" >
-                <h2>Paragon University</h2>
+                <h2>Paragon University</h2><hr>
                 <div id="info">
                     <b>Location : </b><p>Phnom Penh</p>
                     <br><b>Major : </b>
@@ -163,6 +172,7 @@
                         <li>IT</li>
                         <li>Business</li>
                         <li>Finance</li>
+                        <li>Psychology</li>
                         <li><a href="">More</a></li>
                     </ul>
                 </div>

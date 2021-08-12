@@ -3,46 +3,55 @@
     <head>
         <title>University Map</title>
         <link rel="stylesheet" href="HomePage.css">
-        <link rel="icon" href="Logo.jpg" type="img/x-icon">
     </head>
     <body>
-        <div id="header">
-            <nav>
-                <a href="">Menu</a>
-                <a href="school.html">School</a>
-                <a href="major.html">Major</a>
-                <a href="HomePage.html">Home</a>
-            </nav>
-            <img src="Header.jpg" alt="University Map">
+        <div class="header">
+            <ul>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Menu</a>
+                    <div class="dropdown-content">
+                    <a href="school.html" id="theschool">School</a>
+                    <a href="major.html">Major</a>
+                    </div>
+                </li>
+                <li><a class="active" href="#home">Home</a></li>
+            </ul>
+            <a href="HomePage.html" style="padding: 0;"><img src="Header.jpg" alt="University Map"></a>
         </div>
         <div id="welcomePan">
             <img src="Logo.jpg" alt="Logo">
             <h1>Welcome, Everyone</h1>
-                <p>Here at university map, We want to provide a place for student to explore, find and gather information so you can choose the best school and major that suit for you and your future ahead.</p>
+                <p>Here at University map, We want to provide a place for student to explore, find and gather information so you can choose the best school and major that suit for you and your future ahead.</p>
         </div>
         <div id="thebody">
             <div id="school">
-                <h2>School</h2>
+                <h2>School</h2><hr>
                 <p>Find out about the university of your interest and discover about other university as well.</p>
                 <a href="school.html">View all school.</a>
             </div>
             <div id="major">
-                <h2>Major</h2>
+                <h2>Major</h2><hr>
                 <p>Find out more about the major you interested in or explore other major.</p>
                 <a href="major.html">View all major.</a>
             </div>
         </div>
         <div id="footer">
-            <h2>Contact Us</h2>
-            <hr style="width: 50px; border: 2px solid black; margin-left: 30px;">
+            <div id="webinfo">
+                <h2>University Map</h2><hr style="float: right;">
+                <p>We have gather information for every university to put in one place so student can conveniently find what they need anytime, anywhere with least effort.</p>
+                <P>We hope that we can help guide all the student to easily make decision going to the next chapter in studying life.</P>
+                <hr>
+            </div>
+            <h2>Contact Us</h2><hr style="margin-left: 50px;">
             <ul>
                 <li>Phone Number: (+855) 12 267 020</li>
                 <li>Email: bunkimsean6@gmail.com</li>
-                <li>Instagram: <a href="https://www.instagram.com/bun_kimsean/">@bun_kimsean</a></li>
-                <li>Facebook: <a href="https://facebook.com/bun.kimsean.73">Bun Kimsean</a></li>
-                <li>Twitter: <a href="https://twitter.com/BKimsean">@BKimsean</a></li>
-                <li>Telegram: <a href="https://t.me/BKimsean">+855 12 267 020/@BKimsean</a></li>
-            </ul>
+                <li><a href="https://www.instagram.com/bun_kimsean/">Instagram: @bun_kimsean</a></li>
+                <li><a href="https://facebook.com/bun.kimsean.73">Facebook: Bun Kimsean</a></li>
+                <li><a href="https://twitter.com/BKimsean">Twitter: @BKimsean</a></li>
+                <li><a href="https://t.me/BKimsean">Telegram: +855 12 267 020/@BKimsean</a></li>
+            </ul><br>
+            <p style="font-weight: bold;font-size: 15px;text-align: center;">Made/Design/Research/DoingEverything by : Bun Kimsean</p> 
         </div>
     </body>
 </html>
