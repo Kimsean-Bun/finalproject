@@ -136,29 +136,33 @@ html{
 #detailbody p{
     font-size: 25px;
     margin-left: 30px;
+    height: auto;
 }
 #detailbody li{
     font-size: 30px;
     margin: 0;
     list-style-type: none;
     display: inline-block;
-    margin: 20px 40px;
-    width: 450px;
+    margin: 30px 10px;
+    width: 490px;
     border-radius: 8px;
     border: 2px solid black;
     padding: 15px;
-    background-color: #D7501C;
+    background-color: #993300;
     box-shadow: 0 3px black;
+    color: white;
 }
 #detailbody a{
     font-size: 20px;
     text-decoration: none;
-    color: rgb(0, 0, 0);
-    background-color: #B71638;
-    padding: 5px 10px;
+    color: rgb(255, 255, 255);
+    background-color: #D58936;
+    padding: 5px 8px;
     border: 2px solid black;
     border-radius: 8px;
-    margin-left: 20px;
+    margin: 7px;
+    display: inline-block;
+    width: auto;
 }
 #detailbody a:hover{
     box-shadow: 0 3px black;

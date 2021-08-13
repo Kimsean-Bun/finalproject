@@ -137,7 +137,6 @@ html{
     font-size: 25px;
     margin-left: 30px;
     height: auto;
-    line-height: 45px;
 }
 #detailbody li{
     font-size: 30px;
@@ -158,11 +157,11 @@ html{
     text-decoration: none;
     color: rgb(255, 255, 255);
     background-color: #D58936;
-    padding: 5px 10px;
+    padding: 5px 8px;
     border: 2px solid black;
     border-radius: 8px;
-    margin-left: 15px;
-    display: inline;
+    margin: 7px;
+    display: inline-block;
     width: auto;
 }
 #detailbody a:hover{
@@ -176,7 +175,7 @@ html{
 #detailss h3{
     font-size: 35px;
     margin: 20px 30px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 220, 220);
 }
 #detailss hr{
     width: 300px;
@@ -198,4 +197,8 @@ html{
     padding: 20px;
     color: #000000;
     background-color: #993300;
+}
+
+.MajorDetail b{
+    color: white;
 }
