@@ -1,6 +1,6 @@
 body{
     background-color: #b7fdff;
-    font-family: sans-serif;
+    font-family: 'Calibri';
     margin: 0;
 }
 html{
@@ -79,6 +79,7 @@ html{
     font-size: 28px;
     margin: 15px 0 15px 15px;
     width: auto;
+    max-width: 300px;
     display: inline-block;
 }
 #thebody img{
@@ -95,7 +96,7 @@ html{
     width: 530px;
     height: auto;
     box-shadow: 0 3px #303030;
-    margin: 10px;
+    margin: 5px;
     display: inline-block;
 }
 .schooldetails:hover{
