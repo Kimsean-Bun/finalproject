@@ -102,8 +102,9 @@ html{
 }
 
 #thebody{
-    margin: 20px 70px;
+    margin: auto;
     height: 350px;
+    width: 1100px;
 }
 #school, #major {
     width: 450px;

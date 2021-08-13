@@ -105,10 +105,10 @@ html{
     font-size: 20px;
     color: rgb(0, 0, 0);
     font-weight: bold;
-    margin: 10px;
+    margin: 0;
     border: 1px solid white;
     display: inline-block;
-    width: 200px;
+    width: 230px;
 }
 .section li:hover{
     background-color: rgb(6,188,161);
