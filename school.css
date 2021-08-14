@@ -72,7 +72,7 @@ html{
 
 #thebody{
     padding: 120px 0px 30px 0px;
-    width: 1180px;
+    width: 1155px;
     margin: auto;
 }
 #thebody h2{
@@ -92,8 +92,8 @@ html{
     border-color: #303030;
     border: 2px solid #303030;
     border-radius: 10px;
-    padding: 12px;
-    width: 550px;
+    padding: 10px;
+    width: 540px;
     height: auto;
     box-shadow: 0 3px #303030;
     margin: 5px;
